@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +30,61 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col" colspan="2" class="text-center">Event</th>
+            <th scope="col" >Save</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="hour" >9:00</th>
+            <td class="timeChecker" id="nineInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td colspan="0"><button type="button" class="btn btn-primary">Save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">10:00</th>
+            <td class="timeChecker" id="tenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">11:00</th>
+            <td class="timeChecker" id="elevenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="hour">12:00</th>
+            <td class="timeChecker" id="twelveInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr> <tr>
+            <th scope="row" class="hour">13:00</th>
+            <td class="timeChecker" id="thirteenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr> <tr>
+            <th scope="row" class="hour">14:00</th>
+            <td class="timeChecker" id="fourteenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr> <tr>
+            <th scope="row" class="hour">15:00</th>
+            <td class="timeChecker" id="fifteenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr> <tr>
+            <th scope="row" class="hour">16:00</th>
+            <td class="timeChecker" id="sixteenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr> <tr>
+            <th scope="row" class="hour">17:00</th>
+            <td class="timeChecker" id="seventeenInputText" colspan="2"><input type="text" class="text-box" /></td>
+            <td><button type="button" class="btn btn-primary">Save</button></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
