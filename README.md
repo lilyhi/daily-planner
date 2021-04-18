@@ -7,6 +7,7 @@
 * JavaScript
 * HTML
 * CSS
+## Including
 * Bootstrap
 * JQuery
 * Moment.js
