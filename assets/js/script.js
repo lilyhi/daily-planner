@@ -13,7 +13,6 @@ var checkDate = function () {
     // check current time 
     console.log(document.getElementsByClassName("timeChecker"));
     for (var i  = 0; i < workTimes.length; i++) {
-        // console.log(currentMilitaryTime);
         if (currentMilitaryTime === workTimes[i]) {
             console.log(`currentTime: ${currentMilitaryTime} workTime: ${workTimes[i]} conditional: currentMilitaryTime === workTime`,(currentMilitaryTime === workTimes[i]));
             document.getElementsByClassName("timeChecker")[i].className="timeChecker table-success";
@@ -31,7 +30,7 @@ var checkDate = function () {
 }
 
 $(".btn").on("click", function() {
-    console.log("This is test msg");
+    // console.log("This is test msg");
     var inputText =  $(this).parent().siblings().find(".text-box").val();
     // console.log(inputText);
     var time = $(this).parent().siblings().find(".hour").prevObject[0].innerText;
