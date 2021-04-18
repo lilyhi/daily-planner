@@ -10,6 +10,8 @@
 * Bootstrap
 * JQuery
 * Moment.js
+* Google Fonts
+* Font Awesome
 
 ## Website
 https://lilyhi.github.io/daily-planner
@@ -17,5 +19,5 @@ https://lilyhi.github.io/daily-planner
 ## Contribution
 Made with 💙 by Lily Hissong 
 
-<!-- Screenshot displaying planner:
-![Screenshot of quiz start](./assets/images/daily-planner.png) -->
+Screenshot displaying planner:
+![Screenshot of quiz start](./assets/images/daily-planner.png)
